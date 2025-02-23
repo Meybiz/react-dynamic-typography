@@ -1,0 +1,6 @@
+node_modules
+src
+*.ts
+*.tsx
+rollup.config.mjs
+tsconfig.json

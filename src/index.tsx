@@ -1,0 +1,1 @@
+export { DynamicTypography } from './DynamicTypography';

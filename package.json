@@ -1,0 +1,33 @@
+{
+  "name": "react-dynamic-typography", 
+  "version": "0.1.0", 
+  "description": "A lightweight React library for responsive and accessible typography",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "author": "Victor Pererva <gemestron@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typography",
+    "responsive",
+    "accessibility"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^4.0.0",
+    "tslib": "^2.6.0"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
