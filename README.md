@@ -9,9 +9,9 @@ A lightweight React library for creating responsive and accessible typography. A
 # **Installation**
 
 Install the package and dependencies:
-
+~~~
 npm install react-dynamic-typography react react-dom
-
+~~~
 
 # **Usage**
 Import and use the DynamicTypography component in your React project. Pass a baseSize and an optional scale prop to control the typography.
@@ -50,6 +50,35 @@ export default App;
 # **Requirements**
 * React 18.2.0 or higher
 * React DOM 18.2.0 or higher
+
+# **Development**
+
+To contribute or run locally:
+
+1. Clone the repository:
+
+~~~
+    git clone https://github.com/Meybiz/react-dynamic-typography.git
+    cd react-dynamic-typography
+~~~
+
+2. Install dependencies:
+
+~~~
+    npm install
+~~~
+
+3. Build the library:
+
+~~~
+    npm run build
+~~~
+
+# **Contributing**
+Feel free to open issues or submit pull requests on GitHub. All contributions are welcome! Or send suggestions for improvements or ideas to email: gemestron@gmail.com
+
+# **Author**
+Created by meybiz (Victor Pererva).
 
 # **License**
 
